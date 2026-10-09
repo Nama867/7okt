@@ -1,2 +1,3 @@
 # 7okt
 tugas kelompok
+aeeeiuuueeeeeooooaaeeeiiuueeeooo
