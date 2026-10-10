@@ -11,3 +11,13 @@ void displayList(Node* head) {
     }
     cout << endl;
 };
+
+void forwardTraversal(Node* head) {
+    Node* temp = head;
+
+    while (temp != nullptr) {
+        cout << temp->data << endl;
+        temp = temp->next;
+    }
+}
+};
