@@ -14,5 +14,6 @@ struct Node {
 
 void displayList(Node* head);
 void forwardTraversal(Node* head);
+void backwardTraversal(Node* tail);
 
 #endif
