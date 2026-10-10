@@ -20,8 +20,18 @@ int main() {
 
     node5->prev = node4;
 
-    cout << "Isi List: ";
+    cout << "Original List: ";
     displayList(node1);
+
+    node2->next = node4;
+    node4->prev = node2;
+    delete node3;
+
+    cout << "\nAfter deleting Song C (Forward): ";
+    displayList(node1);
+
+    cout << "After deleting Song C (Backward): ";
+    displayBackward(node5);
 
     return 0;
 }
