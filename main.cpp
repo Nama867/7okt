@@ -1,7 +1,7 @@
 #include "list.h"
 
 int main() {
-    // Membuat node awal A, B, C, D, E
+
     Node* nodeA = new Node{"A", nullptr, nullptr};
     Node* nodeB = new Node{"B", nullptr, nullptr};
     Node* nodeC = new Node{"C", nullptr, nullptr};

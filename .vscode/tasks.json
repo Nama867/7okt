@@ -3,29 +3,16 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file",
-<<<<<<< Updated upstream
-            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+            "command": "C:/msys64/ucrt64/bin/g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "${fileDirname}\\*.cpp",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "C:\\msys64\\ucrt64\\bin"
-=======
-            "command": "C:/msys64/ucrt64/bin/g++.exe",
-            "args": [
-                 "-fdiagnostics-color=always",
-                 "-g",
-                 "${fileDirname}\\*.cpp", // <-- This targets ALL cpp files in the folder
-                 "-o",
-                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
                 "cwd": "C:/msys64/ucrt64/bin"
->>>>>>> Stashed changes
             },
             "problemMatcher": [
                 "$gcc"
