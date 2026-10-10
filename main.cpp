@@ -20,7 +20,7 @@ int main() {
 
     node5->prev = node4;
 
-    cout << "Isi List: ";
+    cout << "Original List: ";
     displayList(node1);
 
     cout << "\nForward:" << endl;
