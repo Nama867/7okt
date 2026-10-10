@@ -38,5 +38,13 @@ int main() {
     cout << "\nBackward:" << endl;
     backwardTraversal(node5);
 
+    deleteNode(node3);
+
+    cout << "\nAfter deleting Song C (Forward): ";
+    forwardTraversal(node1);
+
+    cout << "After deleting Song C (Backward): ";
+    backwardTraversal(node5);
+
     return 0;
 }

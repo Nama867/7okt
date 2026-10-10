@@ -50,3 +50,22 @@ void insertMiddle(Node* prevNode, string newData) {
     prevNode->next = newNode;
 
 };
+
+void deleteNode(Node* delNode) {
+    if (delNode == nullptr) {
+        cout << "Node tidak boleh null." << endl;
+        return;
+    }
+
+    if (delNode->prev != nullptr) {
+        delNode->prev->next = delNode->next;
+    }
+
+    if (delNode->next != nullptr) {
+        delNode->next->prev = delNode->prev;
+    }
+
+    cout << "Node \"" << delNode->data << "\" berhasil dihapus." << endl;
+    delete delNode;
+};
+
