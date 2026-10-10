@@ -15,5 +15,6 @@ struct Node {
 void displayList(Node* head);
 void forwardTraversal(Node* head);
 void backwardTraversal(Node* tail);
+void insertMiddle(Node* prevNode, string newData);
 
 #endif

@@ -29,24 +29,13 @@ int main() {
     cout << "\nBackward:" << endl;
     backwardTraversal(node5);
 
-    Node* nodeX = new Node{"Song X", nullptr, nullptr};
+    cout << "\nInsert Middle:" << endl;
+    insertMiddle(node2, "Song X");
     
-
-    node2->next = nodeX;
-    nodeX->prev = node2;
-    
-    nodeX->next = node3;
-    node3->prev = nodeX;
-    
-    cout << "\n\n=== (Task 5) ===" << endl;
-
-    cout << "Isi List: ";
-    displayList(node1);
-    
-    cout << "Forward :" << endl;
+    cout << "\nForward:" << endl;
     forwardTraversal(node1);
 
-    cout << "Backward :" << endl;
+    cout << "\nBackward:" << endl;
     backwardTraversal(node5);
 
     return 0;
