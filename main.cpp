@@ -23,7 +23,8 @@ int main() {
     cout << "Isi List: ";
     displayList(node1);
 
-    displayBackward(node5);
+    cout << "\nForward:" << endl;
+    forwardTraversal(node1);
 
     return 0;
 }

@@ -12,11 +12,12 @@ void displayList(Node* head) {
     cout << endl;
 };
 
-void displayBackward(Node* tail) {
-    Node* temp = tail;
-    cout << "Backward:" << endl;
+void forwardTraversal(Node* head) {
+    Node* temp = head;
+
     while (temp != nullptr) {
         cout << temp->data << endl;
-        temp = temp->prev; // Bergerak mundur menggunakan pointer prev
+        temp = temp->next;
     }
+}
 };
