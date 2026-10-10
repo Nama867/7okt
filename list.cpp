@@ -51,14 +51,23 @@ void insertMiddle(Node* prevNode, string newData) {
 
 };
 
-void displayBackward(Node* tail) {
-    Node* temp = tail;
-    while (temp != nullptr) {
-        cout << temp->data;
-        if (temp->prev != nullptr) {
-            cout << " <-> ";
-        }
-        temp = temp->prev;
+void deleteNode(Node* delNode) {
+    if (delNode == nullptr) {
+        cout << "Node tidak boleh null." << endl;
+        return;
     }
-    cout << endl;
+
+    // Update pointer next dari node sebelumnya
+    if (delNode->prev != nullptr) {
+        delNode->prev->next = delNode->next;
+    }
+
+    // Update pointer prev dari node setelahnya
+    if (delNode->next != nullptr) {
+        delNode->next->prev = delNode->prev;
+    }
+
+    cout << "Node \"" << delNode->data << "\" berhasil dihapus." << endl;
+    delete delNode;
 };
+
