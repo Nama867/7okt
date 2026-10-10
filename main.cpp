@@ -1,27 +1,47 @@
 #include "list.h"
 
 int main() {
-    Node* node1 = new Node{"Song A", nullptr, nullptr};
-    Node* node2 = new Node{"Song B", nullptr, nullptr};
-    Node* node3 = new Node{"Song C", nullptr, nullptr};
-    Node* node4 = new Node{"Song D", nullptr, nullptr};
-    Node* node5 = new Node{"Song E", nullptr, nullptr};
 
-    node1->next = node2;
+    Node* nodeA = new Node{"A", nullptr, nullptr};
+    Node* nodeB = new Node{"B", nullptr, nullptr};
+    Node* nodeC = new Node{"C", nullptr, nullptr};
+    Node* nodeD = new Node{"D", nullptr, nullptr};
+    Node* nodeE = new Node{"E", nullptr, nullptr};
 
-    node2->prev = node1;
-    node2->next = node3;
+    nodeA->next = nodeB;
+    
+    nodeB->prev = nodeA;
+    nodeB->next = nodeC;
+    
+    nodeC->prev = nodeB;
+    nodeC->next = nodeD;
+    
+    nodeD->prev = nodeC;
+    nodeD->next = nodeE;
+    
+    nodeE->prev = nodeD;
 
-    node3->prev = node2;
-    node3->next = node4;
+    Node* head = nodeA;
 
-    node4->prev = node3;
-    node4->next = node5;
+    cout << "Before: ";
+    displayList(head);
 
-    node5->prev = node4;
+    Node* nodeX = new Node{"X", nullptr, nullptr};
 
-    cout << "Isi List: ";
-    displayList(node1);
+    nodeB->next = nodeX;
+    nodeX->prev = nodeB;
+    nodeX->next = nodeC;
+    nodeC->prev = nodeX;
+
+    cout << "After : ";
+    displayList(head);
+
+    Node* current = head;
+    while (current != nullptr) {
+        Node* nextNode = current->next;
+        delete current;
+        current = nextNode;
+    }
 
     cout << "\nForward:" << endl;
     forwardTraversal(node1);
