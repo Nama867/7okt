@@ -26,5 +26,8 @@ int main() {
     cout << "\nForward:" << endl;
     forwardTraversal(node1);
 
+    cout << "\nBackward:" << endl;
+    backwardTraversal(node5);
+
     return 0;
 }
