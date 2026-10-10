@@ -10,16 +10,43 @@ void displayList(Node* head) {
         temp = temp->next;
     }
     cout << endl;
-}
+};
 
-void displayBackward(Node* tail) {
-    Node* temp = tail;
+void forwardTraversal(Node* head) {
+    Node* temp = head;
+
     while (temp != nullptr) {
-        cout << temp->data;
-        if (temp->prev != nullptr) {
-            cout << " <-> ";
-        }
+        cout << temp->data << endl;
+        temp = temp->next;
+    }
+};
+
+void backwardTraversal(Node* tail) {
+    Node* temp = tail;
+    
+    while (temp != nullptr) {
+        cout << temp->data << endl;
         temp = temp->prev;
     }
-    cout << endl;
-}
+};
+
+
+
+void insertMiddle(Node* prevNode, string newData) {
+    if (prevNode == nullptr) {
+        cout << "Node sebelumnya tidak boleh null." << endl;
+        return;
+    }
+
+    Node* newNode = new Node{newData, nullptr, nullptr};
+
+    newNode->next = prevNode->next;
+    newNode->prev = prevNode;
+
+    if (prevNode->next != nullptr) {
+        prevNode->next->prev = newNode;
+    }
+
+    prevNode->next = newNode;
+
+};

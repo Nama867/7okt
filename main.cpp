@@ -23,15 +23,20 @@ int main() {
     cout << "Original List: ";
     displayList(node1);
 
-    node2->next = node4;
-    node4->prev = node2;
-    delete node3;
+    cout << "\nForward:" << endl;
+    forwardTraversal(node1);
 
-    cout << "\nAfter deleting Song C (Forward): ";
-    displayList(node1);
+    cout << "\nBackward:" << endl;
+    backwardTraversal(node5);
 
-    cout << "After deleting Song C (Backward): ";
-    displayBackward(node5);
+    cout << "\nInsert Middle:" << endl;
+    insertMiddle(node2, "Song X");
+    
+    cout << "\nForward:" << endl;
+    forwardTraversal(node1);
+
+    cout << "\nBackward:" << endl;
+    backwardTraversal(node5);
 
     return 0;
 }
