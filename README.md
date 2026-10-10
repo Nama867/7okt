@@ -44,12 +44,8 @@
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
-      <td colspan="4" align="center">Bareng</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td colspan="4" align="center">Bareng</td>
+      <td>1, 2</td>
+      <td colspan="4" align="center">Duncan</td>
     </tr>
     <tr>
       <td>3</td>
