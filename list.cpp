@@ -19,5 +19,13 @@ void forwardTraversal(Node* head) {
         cout << temp->data << endl;
         temp = temp->next;
     }
-}
+};
+
+void backwardTraversal(Node* tail) {
+    Node* temp = tail;
+    
+    while (temp != nullptr) {
+        cout << temp->data << endl;
+        temp = temp->prev;
+    }
 };
