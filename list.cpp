@@ -29,3 +29,24 @@ void backwardTraversal(Node* tail) {
         temp = temp->prev;
     }
 };
+
+
+
+void insertMiddle(Node* prevNode, string newData) {
+    if (prevNode == nullptr) {
+        cout << "Node sebelumnya tidak boleh null." << endl;
+        return;
+    }
+
+    Node* newNode = new Node{newData, nullptr, nullptr};
+
+    newNode->next = prevNode->next;
+    newNode->prev = prevNode;
+
+    if (prevNode->next != nullptr) {
+        prevNode->next->prev = newNode;
+    }
+
+    prevNode->next = newNode;
+
+};

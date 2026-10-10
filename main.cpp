@@ -29,5 +29,14 @@ int main() {
     cout << "\nBackward:" << endl;
     backwardTraversal(node5);
 
+    cout << "\nInsert Middle:" << endl;
+    insertMiddle(node2, "Song X");
+    
+    cout << "\nForward:" << endl;
+    forwardTraversal(node1);
+
+    cout << "\nBackward:" << endl;
+    backwardTraversal(node5);
+
     return 0;
 }
