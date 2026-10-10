@@ -54,18 +54,30 @@
     <tr>
       <td>3</td>
       <td>Naufal</td>
+      <td>Samuel</td>
+      <td>Hasbi</td>
+      <td>Duncan</td>
     </tr>
     <tr>
       <td>4</td>
       <td>Duncan</td>
+      <td>Naufal</td>
+      <td>Samuel</td>
+      <td>Hasbi</td>
     </tr>
     <tr>
       <td>5</td>
       <td>Hasbi</td>
+      <td>Duncan</td>
+      <td>Naufal</td>
+      <td>Samuel</td>
     </tr>
     <tr>
       <td>6</td>
       <td>Samuel</td>
+      <td>Hasbi</td>
+      <td>Duncan</td>
+      <td>Naufal</td>
     </tr>
     <tr>
       <td>7</td>
