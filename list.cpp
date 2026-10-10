@@ -57,12 +57,10 @@ void deleteNode(Node* delNode) {
         return;
     }
 
-    // Update pointer next dari node sebelumnya
     if (delNode->prev != nullptr) {
         delNode->prev->next = delNode->next;
     }
 
-    // Update pointer prev dari node setelahnya
     if (delNode->next != nullptr) {
         delNode->next->prev = delNode->prev;
     }
