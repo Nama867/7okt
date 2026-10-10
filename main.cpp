@@ -23,5 +23,7 @@ int main() {
     cout << "Isi List: ";
     displayList(node1);
 
+    displayBackward(node5);
+
     return 0;
 }
