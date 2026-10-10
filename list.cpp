@@ -20,3 +20,4 @@ void forwardTraversal(Node* head) {
         temp = temp->next;
     }
 }
+};
