@@ -57,7 +57,7 @@ int main() {
     return 0;
 }
 ```
-
+![image alt](https://github.com/Nama867/7okt/blob/911eca7aec4bdedc32a5c8203e6089673d4e5e26/Screenshots/Task%207.jpg)
 
 Doubly Linked List (DLL) sangat cocok untuk memodelkan urutan level game seperti Geometry Dash karena sangat menyerupai cara pemain menavigasi menu game dan cara playlist level khusus (custom levels) dikelola:
 
