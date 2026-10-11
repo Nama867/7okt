@@ -17,13 +17,13 @@ What I changed or fixed myself: vscode tasks.json, task 7<br>
 GitHub Issue / PR / Commit I contributed: Task 5, 7, dan compiler<br>
 
 <h2>Samuel</h2>
-Name: <br>
-My main contribution: <br>
-What I learned about next and prev: <br>
-The hardest part: <br>
-What AI helped me with: <br>
-What I changed or fixed myself: <br>
-GitHub Issue / PR / Commit I contributed: <br>
+Name: Samuel Dipta Yogi Taruna<br>
+My main contribution: Task 6, 9, dan Reviewer task 4<br>
+What I learned about next and prev: Next menunjuk pada node berikutnya sedangkan Prev menunjuk node sebelumnya<br>
+The hardest part: Memahami soal dan menyesuaikan Daftar Tugas<br>
+What AI helped me with: Pembuatan Fungsi Dasar, penjelasan cara penggunaan git dan repo<br>
+What I changed or fixed myself: AI-Notes, reflection, implementasi pada main.cpp<br>
+GitHub Issue / PR / Commit I contributed: Task 6, 9, dan review Task 4<br>
 
 <h2>Naufal</h2>
 Name: Maulana Naufal Mahrus<br>
