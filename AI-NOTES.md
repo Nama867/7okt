@@ -15,16 +15,16 @@ ____________________________<br>
 What we changed/tested: mengubah string node dengan level geometry dash<br>
 ____________________________<br>
 <h2>Samuel</h2>
-Prompt:<br>
+Prompt:Jelaskan Task 8<br>
 ____________________________<br>
 AI helped us with:<br>
 ____________________________<br>
 What we changed/tested:<br>
 ____________________________<br>
 <h2>Naufal</h2>
-Prompt:<br>
+Prompt: Buatkan saya prosedur foward traversal, jelaskan maksud code, cara pake github dan vscode<br>
 ____________________________<br>
-AI helped us with:<br>
+AI helped us with: Membuat prosedur foward traversal dan menjelaskan code nya<br>
 ____________________________<br>
-What we changed/tested:<br>
+What we changed/tested: Menjalankan program untuk menghapus node C dari A <-> B <-> C <-> D, kemudian memeriksa apakah hasilnya menjadi A <-> B <-> D sesuai dengan prediksi. <br>
 ____________________________<br>
