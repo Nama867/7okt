@@ -2,7 +2,7 @@
 <table>
   <thead>
     <tr>
-      <th colspan="2">Tugas Kelompok</th>
+      <th colspan="3">Tugas Kelompok</th>
     </tr>
     <tr>
       <th>Nama Anggota</th>
