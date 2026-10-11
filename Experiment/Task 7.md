@@ -1,3 +1,5 @@
+# Implementasi Doubly Linked List: Studi Kasus Level Geometry Dash.
+
 Repositori ini berisi contoh implementasi struktur data **Doubly Linked List (DLL)** dalam bahasa C++. Konsep ini didemonstrasikan menggunakan studi kasus navigasi level pada game **Geometry Dash**.
 
 Berikut adalah kode utama yang mensimulasikan pembuatan, navigasi, penambahan, dan penghapusan level menggunakan Doubly Linked List:
