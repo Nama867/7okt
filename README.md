@@ -82,7 +82,7 @@
     </tr>
     <tr>
       <td>7</td>
-      <td colspan="4" align="center">idk</td>
+      <td colspan="4" align="center">Hasbi</td>
     </tr>
     <tr>
       <td>8</td>
