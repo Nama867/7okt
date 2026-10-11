@@ -15,11 +15,13 @@ ____________________________<br>
 What we changed/tested: mengubah string node dengan level geometry dash<br>
 ____________________________<br>
 <h2>Samuel</h2>
-Prompt:Jelaskan Task 8<br>
+Prompt Task 6: buatkan saya function deleteNode pada file source dan header. Detail function ada pada task.json<br>
+
+Prompt Task 9: Buatkan kesalahan yang disengaja, misalkan lupa untuk update next atau prev, liat apa yang terjadi, lalu perbaiki<br>
 ____________________________<br>
-AI helped us with:<br>
+AI helped us with: Pembuatan function<br>
 ____________________________<br>
-What we changed/tested:<br>
+What we changed/tested: Implementasi function pada main file secara manual<br>
 ____________________________<br>
 <h2>Naufal</h2>
 Prompt: Buatkan saya prosedur foward traversal, jelaskan maksud code, cara pake github dan vscode<br>
