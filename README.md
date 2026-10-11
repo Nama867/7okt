@@ -86,11 +86,11 @@
     </tr>
     <tr>
       <td>8</td>
-      <td colspan="4" align="center">idk</td>
+      <td colspan="4" align="center">Naufal</td>
     </tr>
     <tr>
       <td>9</td>
-      <td colspan="4" align="center">idk</td>
+      <td colspan="4" align="center">Samuel</td>
     </tr>
   </tbody>
 </table>
