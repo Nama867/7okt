@@ -1,4 +1,4 @@
-#include "list.h"
+#include "list.cpp"
 
 int main() {
     Node* node1 = new Node{"Song A", nullptr, nullptr};
