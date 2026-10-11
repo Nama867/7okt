@@ -7,24 +7,29 @@
     <tr>
       <th>Nama Anggota</th>
       <th>NIM</th>
+      <th>Username</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Duncan Agastya Kurniawan</td>
       <td>103012530055</td>
+      <td>Nama867</td>
     </tr>
     <tr>
       <td>Raden Hasbi Radhitya Natadilaga</td>
       <td>103012530017</td>
+      <td>Claiirz</td>
     </tr>
     <tr>
       <td>Samuel Dipta Yogi Taruna</td>
       <td>103012500099</td>
+      <td>SammDevl</td>
     </tr>
     <tr>
       <td>Maulana Naufal Mahrus</td>
       <td>103012500226</td>
+      <td>maulananaufalms</td>
     </tr>
   </tbody>
 </table>
