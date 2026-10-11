@@ -8,11 +8,11 @@ What we changed/tested:<br>
 dasar program<br>
 
 <h2>Hasbi</h2>
-Prompt:<br>
+Prompt: buatkan saya function insert middle di list.h, cari masalah dari task.json<br>
 ____________________________<br>
-AI helped us with:<br>
+AI helped us with: membuat funcction dasar dan troubleshooting compiler<br>
 ____________________________<br>
-What we changed/tested:<br>
+What we changed/tested: mengubah string node dengan level geometry dash<br>
 ____________________________<br>
 <h2>Samuel</h2>
 Prompt:<br>
